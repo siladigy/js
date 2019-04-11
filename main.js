@@ -14,4 +14,16 @@ let arr = ['plum.png', 'orange.jpeg', 'bitch'];
 // document.write(' ');
 // document.write('2' == '2');
 
-document.getElementById('first').value; 
+
+
+
+function isClick(){
+
+let num = document.getElementById('first').value;
+
+    if (num == 'nike'){
+        alert('correct');
+    } else {
+        alert('wrong password. Try again!');
+    }
+};
