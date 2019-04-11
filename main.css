@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.header{
+    background: rgb(125, 207, 235);
+    padding: 100px;
+    border-radius: 0 0 0 50%;
+    border-color: rgb(121, 76, 226);
+}
+
+button{
+    cursor: pointer;
+    border-radius: 20%;
+    padding: 10px;
+    border: none;   
+    transition: .3s;
+}
+button:focus{
+    outline: none;
+}
+button:hover{
+    background-color: rgb(45, 135, 214);
+    color: antiquewhite;
+    
+}
+input{
+    border: none;
+    padding: 5px;
+}
+input:focus{
+    outline: none;
+}
+#first{
+    border-radius: 0 0 0 20%;
+}
